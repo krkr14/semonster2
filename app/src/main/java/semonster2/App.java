@@ -14,5 +14,6 @@ public class App {
     System.out.print(m.toString());
     m.evolve();
     System.out.print(m.toString());
+
   }
 }
