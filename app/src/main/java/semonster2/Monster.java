@@ -13,6 +13,12 @@ public class Monster {
     String monsters[] = { "スライム", "サハギン", "ドラゴン", "デュラハン", "シーサーペント" };
     return monsters[mnumber];
   }
+
+  void evolve(){
+    if (this.rare >= 3){
+      this.name = "超" + this.name;
+    }
+  }
   
   @Override
   public String toString() {
